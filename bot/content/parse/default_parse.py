@@ -1,0 +1,1 @@
+hero_parse = r'\S+\[(?P<guild_tag>.+)\](?P<nickname>.+)\n🏅Уровень: (?P<lvl>\d+).*\n.*\n.*\n.*\n.*\n(?:(?=💧).*\n|).*\n.*\n.*\n(?P<class>.)'
