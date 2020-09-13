@@ -34,6 +34,7 @@ async def start_q1_func(mes: Message, state: FSMContext):
     await hero_input(mes)
     await mes.answer(start_welcome2_text)
     await mes.answer(start_menu_text, start_menu)
+    await state.finish()
 
 
 async def hero_input(mes: Message):
